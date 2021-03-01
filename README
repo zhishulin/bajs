@@ -1,0 +1,17 @@
+requirement：
+python==3.7
+Keras==2.2.4
+numpy==1.19.0
+tensorflow-gpu==1.13.1
+cuda==10.0
+
+GPU memory >= 8GB
+
+train：
+attention model：
+python attention_train.py
+clean model：
+python inception_train.py
+
+The dataset used in this paper needs to be applied to the company.
+
